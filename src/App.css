@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  background-color: black;
+  min-height: calc(100vh - 70px);
+  padding-top: 70px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.App-subheader {
+  background-color: black;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.text-field-description {
+  margin-bottom: 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-field {
+  height: 120px;
+  width: 550px;
+  font-size: 32px;
+  padding: 16px;
+  border-radius: 4px;
+  font-weight: 700;
+  inline-size: 550px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  resize: none;
+}
+
+.multiline-text{
+    background-color: #282c34;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 350px;
+    width: 550px;
+    inline-size: 550px;
+    overflow-wrap: break-word;
+    margin: 20px auto;
+    font-family: 'Roboto';
+    border-radius: 4px;
+    border: none;
+    resize: none;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+}
+
+.logo {
+  padding: 5px;
+}
+
+.###-logo {
+  padding: 20px;
+}
+
+.submit-button {
+  background-color: #E55940;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: auto;
+}
+
+.data-source {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.submit-button:hover {
+  background: #e3553c;
+  cursor: pointer;
+}
+
+.submit-button:active {
+  background: #993B2A;
+  cursor: pointer;
+}
